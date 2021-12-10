@@ -10,17 +10,17 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
-// if startQuiz button clicked
+// if startTest button clicked
 start_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); //show info box
 }
 
-// if exitQuiz button clicked
+// if exitGame button clicked
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
 }
 
-// if continueQuiz button clicked
+// if continueGame button clicked
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.add("activeQuiz"); //show quiz box

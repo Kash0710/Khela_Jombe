@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgb(0,0,0,0.5)100px,rgba(0,0,0,0.5)50px),url(images/IQ\ Image2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    position: center;
+
+}
+.logo{
+    color: rgb(204, 101, 18);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: center;
+    padding-top: 10px;
+    display: flex;
+    
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    
+
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+
+}
+ul li a:hover{
+    color: yellow;
+
+}
+.section{
+    display: flex;
+
+}
+.half-width{
+    width: 50%;
+}
+.anycolor{
+    color: rgb(170, 226, 14);
+    font-size: 100%;
+    font-style: inherit;
+}
+.getstarted-button{
+    text-decoration: none;
+    position: relative;
+    background-image: linear-gradient(yellow, orange);
+    margin-bottom: 0px;
+    top: 500px;
+    left: 500px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.home-button{
+    text-decoration: none;
+    position: relative;
+    padding: 10px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(skyblue,blue);
+
+}
+.login-button{
+    
+text-decoration: none;
+position: relative;
+padding:10px 20px ;
+padding-left: 40px;
+padding-right: 10px;
+border-radius: 5px;
+background-image: linear-gradient(skyblue,blue);
+}
+input[type="button"]{
+    width: 200px;
+    height: 50px;
+    padding-left: 24px;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    color: rgb(orange, green, blue);
+    background-color: saddlebrown;
+    transition: ease-in-out 0.3s;
+}
+.loginmain{
+    width: 100%;
+    background: linear-gradient(to top,rgb(0,0,0,0.5)100px,rgba(0,0,0,0.5)50px),url(images/IQ\ Image1.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+}
+.login-edit{
+    text-align: center;
+    font-size: 55px;
+    position: relative;
+    margin-bottom: 0px;
+    
+    padding-top: 20px;
+}
+.login-form{
+    padding-top: 20px;
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: none;
+    border-radius: 4px;
+    border-color: aqua;
+    
+
+}
+.about-button{
+    text-decoration: none;
+position: relative;
+padding:10px 20px ;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 5px;
+background-image: linear-gradient(skyblue,blue);
+}
+.setting-button{
+    text-decoration: none;
+position: relative;
+padding:10px 20px ;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 5px;
+background-image: linear-gradient(skyblue,blue);
+
+}
+.contact-button{
+    text-decoration: none;
+display: flex;
+padding-top: 30px;
+padding:10px 50px ;
+padding-left: 30px;
+padding-right: 10px;
+border-radius: 5px;
+padding-top: 15px;
+background-image: linear-gradient(skyblue,blue);
+}
+form input{/*editing the form */
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border: 1px solid rgb(114, 114, 190);
+    border-radius: 10px;
+    outline: none;
+
+}
+.DHA{
+    font-weight: 700;
+    color: salmon;
+    padding-top: 7px;
+}
